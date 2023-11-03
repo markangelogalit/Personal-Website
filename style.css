@@ -1,0 +1,63 @@
+.header {
+	background-color: #7fffd4;
+	color: #808080;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	border: 1px gray solid;
+}
+
+.topnav {
+	padding: 10px;
+	background-color: #db7093;
+	text-align: right;
+	word-spacing: px;
+	white-space: nowrap;
+	font-size: 19px;
+	border: 1px gray solid;
+}
+	
+	
+.main-content {
+	padding: 20px;
+	background-color: #da70d6;
+	font-style: italic;
+	font-size: 20px;
+	border: 1px gray solid;
+}
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #da70d6;
+}
+
+.personal, .skills, .educ, .info, .contact{
+	padding: 20px;
+	background-color: #da70d6;
+	font-style: italic;
+	text-align: center;
+	font-size: 18px;
+	border: 1px gray solid;
+}
+
+.footer{
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #db7093;
+	border: 1px gray solid;
+	text-align: center;
+}
+
+.form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form input, .form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
